@@ -1,0 +1,601 @@
+body
+{
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.hop
+{
+    background: grey;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-left: 10px;
+    margin: 0 0 0 0 ;
+    font-size: 35px;
+    z-index: 3;
+}
+.hop div
+{
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+    float: right;
+    right: 30px;
+    margin-top: 15px;
+}
+.h,.a,.s,.r,.t,.p,.c
+{
+    margin: 0 10px;
+}
+.h:hover,.a:hover,.s:hover,.r:hover,.t:hover,.p:hover,.c:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.name
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 12px;
+    cursor: none;
+    font-family: Franklin Gothic Medium;
+}
+/*********************************************home bar ends***************************************************/
+
+/*********************************************photo and title starts***************************************************/
+.fp
+{
+    background: url('../portfolio/p90.jpg') no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 755px;
+    margin: 60px 0px 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.title
+{
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 0px;
+    z-index: 2;
+    text-align: center;
+}
+.title h1
+{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    margin: 20px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: Times New Roman;
+    
+}
+.title button
+{
+    text-align: center;
+    border: 3px solid black;
+    background: none;
+    color: black;
+    font-size: 30px;
+    width: 200px;
+    height: 70px;
+    margin-left: 8px;
+}
+.title button:hover
+{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+/*********************************************photo and title ends***************************************************/
+
+/*********************************************info starts***************************************************/
+.home
+{
+    background: none;
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 30px; 
+    display: block;
+}
+.va
+{
+    margin:10px 0 5px 80px;
+    float: left;
+    font-size: 35px;
+    display: inline-block;
+    font-weight: 600;
+}
+.ho
+{
+    display: inline-block;
+    font-size: 35px;
+    margin:10px 0 5px 440px;
+    font-weight: 600;
+}
+.go
+{
+    margin:10px 130px 5px 0;
+    float: right;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 600;
+}
+.word
+{
+    width: 100%;
+    height: 140px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.val
+{
+    width: 150px;
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+.goa
+{
+    width: 150px;
+    margin-right: 80px;
+    float: right;
+    display: inline-block;
+}
+.hob
+{
+    width: 150px;
+    display: inline-block;
+    margin-left: 430px;
+}
+/*********************************************info ends***************************************************/
+
+/*********************************************about me starts***************************************************/
+.about
+{
+    width: 100%;
+    height: 550px;
+    background: #ddd;
+    margin: 30px 0 30px 0;
+    overflow: hidden;
+}
+.su
+{
+    margin: 0px 50px 0 200px;
+    height: 100%;
+    float: left;
+}
+.su img{width:100%;}
+.about .info
+{
+    width: 55%;
+    height: 100%;
+    margin: 60px 20px 20px;
+    float: left;
+    overflow: hidden;
+}
+.about .info > div
+{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    display: inline-block;
+}
+.about .info p ,
+.about .info  span
+{
+    text-indent: 15px;
+    line-height: 1.6;
+}
+.about .info img
+{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 10px 0 0 ;
+}
+.about .info .text p
+{
+    width: 250px;
+    
+}
+/*********************************************about me ends***************************************************/
+
+/*********************************************skills starts***************************************************/
+.my-skills
+{
+    width: 100%;
+    height: 438px;
+    margin: 50px 0 30px 0;
+    overflow: hidden; 
+}
+.my-skills .text
+{
+    float: left;
+    width: 30%;
+    margin: 0px 60px 0 230px;
+}
+.my-skills .prog
+{
+    float: left;
+    width: 30%;
+    margin: 0px 50px;
+}
+.my-skills .text h2
+{
+    font-weight: 900;
+}
+.my-skills .text p:last-of-type
+{
+    margin-top:20px; 
+}
+.my-skills .text p
+{
+    line-height: 1.7;
+}
+.my-skills .text button
+{
+    background: none;
+    text-align: center;
+    color:black;
+    font-size: 24px;
+    border: 3px solid black;
+    padding: 15px;
+    margin-top: 20px; 
+}
+.my-skills .text button:hover
+{
+    color:green;
+    border: 3px solid green;
+    cursor: pointer;
+}
+.my-skills .prog .per ,
+.my-skills .prog .per2,
+.my-skills .prog .per3,
+.my-skills .prog .per4
+{
+    width: 100%;
+    background: grey;
+    height: 30px;
+    overflow: hidden;
+}
+.my-skills .prog .per p
+{
+    width: 80%;
+    background: #5EE327;
+    height: 30px;
+    text-indent: 91%;
+    margin: 0;
+    padding: 8px 0;
+}
+.my-skills .prog .per2 p
+{
+    width: 60%;
+    background: #5EE327;
+    height: 30px;
+    text-indent: 88%;
+    margin: 0;
+    padding: 8px 0;
+}
+.my-skills .prog .per3 p
+{
+    width: 70%;
+    background: #5EE327;
+    height: 30px;
+    text-indent: 90%;
+    margin: 0;
+    padding: 8px 0;
+}
+.my-skills .prog .per4 p
+{
+    width: 50%;
+    background: #5EE327;
+    height: 30px;
+    text-indent: 86%;
+    margin: 0;
+    padding: 8px 0;
+}
+/*********************************************skills ends***************************************************/
+
+/*********************************************resume starts***************************************************/
+.resume
+{
+    margin: 30px 0;
+    text-align: center;
+    background: #ddd;
+    width: 100%;
+    padding: 25px 0 ;
+}
+.resume p
+{
+    text-align: center;
+    width: 850px;
+    line-height: 1.7;
+    margin: auto;
+}
+.resume h2
+{
+    font-size: 30px;
+    
+}
+.resume button
+{
+    margin: 15px;
+    font-size: 24px;
+    background: none;
+    color: green;
+    border: 3px solid green;
+    padding: 15px;
+}
+.resume button:hover
+{
+    background: green;
+    color: white;
+    border: 3px solid green;
+    cursor: pointer;
+}
+/*********************************************resume ends***************************************************/
+
+/*********************************************education ends***************************************************/
+.my-education
+{
+    background: none;
+    margin: 40px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.my-education .abstract,
+.my-education .info
+{
+    width: 35%;
+    float: left;
+}
+.my-education .abstract
+{
+    margin: 0 15px 0 200px;
+}
+.my-education .info
+{
+    margin: 0 200px 0 40px;
+}
+.my-education .abstract h2
+{
+    font-weight: 900;
+}
+.my-education .abstract p
+{
+    line-height: 1.7;
+    margin-bottom: 23px;
+}
+.my-education .info > div
+{
+    margin: 30px 0 60px;
+}
+.my-education .info div h2
+{margin: 0 0 26px;}
+.my-education .info div p
+{line-height: 1.6;}
+.gpa
+{
+    background:#5EE327;
+    color: white;
+    width: 61px;
+    height: 17px;
+    padding: 15px;
+    margin: 15px;
+}
+hr
+{
+    width: 80%;
+}
+/*********************************************education ends***************************************************/
+
+/*********************************************exp starts***************************************************/
+.my-exp
+{
+    background: none;
+    margin: 40px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.my-exp .abstract,
+.my-exp .info
+{
+    width: 35%;
+    float: left;
+}
+.my-exp .abstract
+{
+    margin: 0 15px 0 200px;
+}
+.my-exp .info
+{
+    margin: 0 200px 0 40px;
+}
+.my-exp .abstract h2
+{
+    font-weight: 900;
+}
+.my-exp .abstract p
+{
+    line-height: 1.7;
+    margin-bottom: 23px;
+}
+.my-exp .info > div
+{
+    margin: 30px 0 60px;
+}
+.my-exp .info div h2
+{margin: 0 0 26px;}
+.my-exp .info div p
+{line-height: 1.6;}
+.gpa
+{
+    background:#5EE327;
+    color: white;
+    width: 70px;
+    height: 17px;
+    padding: 15px;
+    margin: 15px;
+}
+/*********************************************exp ends***************************************************/
+
+/*********************************************testimonials starts***************************************************/
+.test
+{
+    margin: 30px 0;
+    text-align: center;
+    background: #ddd;
+    width: 100%;
+    padding: 80px 0 20px;
+}
+.test p
+{
+    text-align: center;
+    width: 850px;
+    margin: auto;
+    font: italic 20px/1.7 Arial;
+}
+.test ul
+{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.test ul li
+{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #5EE327;
+    border-radius: 50%;
+    display: inline-block;
+}
+.test ul li.active
+{background-color: #5EE327}
+.test ul li:hover
+{
+    cursor: pointer;
+    background-color: #5EE327
+}
+/*********************************************testimonials ends***************************************************/
+
+/*********************************************portfolio starts***************************************************/
+.port
+{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.port p
+{
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+.port .img
+{
+    width:1170px;
+    text-align: center;
+    margin: 20px auto;
+}
+.port .img img
+{
+    float: left;
+    margin: 20px;
+    width: 29%;
+}
+/*********************************************portfolio  ends***************************************************/
+
+/*********************************************contact  ends***************************************************/
+.con
+{
+    background: #252f31;
+    color: #ddd;
+}
+.container
+{
+    width: 1170px;
+    overflow: hidden;
+    height: 540px;
+    margin: auto;
+}
+.container .info,
+.container .sms
+{
+    margin: 25px 0;
+    width: 48%;
+    float: left;
+}
+.container .info p{line-height: 1.6}
+.container .info p:last-of-type{width: 120px;}
+.container .info strong {color: white;}
+.container .info span {color: #ddd;}
+
+.container .sms label {margin-bottom:0;display: block; }
+.container .sms input {width: 90%; background: none; color: #ddd; margin-bottom: 20px; padding: 8px 4px; border: 2px solid #ddd; }
+.container .sms
+{
+    margin-left: 44px;
+    margin-top: 89px; 
+}
+.container .sms textarea
+{
+    background: none;
+    color: #ddd;
+    padding: 8px 4px;
+    border: 2px solid #ddd;
+    width: 90%;
+    height: 130px;
+}
+.sms button
+{
+    display: block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: #161616;
+    cursor: pointer;
+    color: #ddd;
+    border: none;
+}
+/*********************************************con  ends***************************************************/
+
+.foot
+{
+    text-align: center;
+    background: #0C0B0B;
+    width: 100%;
+    height: 100px;
+    margin:auto;
+    color: #DDD;
+    overflow: hidden;
+}
+.foot div
+{
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
